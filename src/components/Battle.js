@@ -15,6 +15,7 @@ const useActiveBattle = () => {
             }
         }
 
+        fetchData()
         setInterval(() => {
             fetchData()
         }, 10000)
